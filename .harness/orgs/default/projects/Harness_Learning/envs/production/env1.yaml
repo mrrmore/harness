@@ -1,0 +1,6 @@
+environment:
+  name: env1
+  identifier: env1
+  orgIdentifier: default
+  projectIdentifier: Harness_Learning
+  type: Production
