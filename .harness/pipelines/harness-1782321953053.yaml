@@ -22,7 +22,7 @@ pipeline:
                       ls -lrt
                       python3 --version
                       chmod 777 hello.py
-                      python3 hello.py
+                      python3 hello.py >> output.txt
           platform:
             os: Linux
             arch: Amd64
