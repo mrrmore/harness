@@ -17,8 +17,12 @@ pipeline:
                   name: Echo Welcome Message
                   identifier: Echo_Welcome_Message
                   spec:
-                    shell: Python
-                    command: print('Hello')
+                    shell: Bash
+                    command: |-
+                      ls -lrt
+                      python3 --version
+                      chmod 777 hello.py
+                      python3 hello.py
           platform:
             os: Linux
             arch: Amd64
