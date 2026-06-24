@@ -1,0 +1,5 @@
+service:
+  name: service1
+  identifier: service1
+  orgIdentifier: default
+  projectIdentifier: Harness_Learning
