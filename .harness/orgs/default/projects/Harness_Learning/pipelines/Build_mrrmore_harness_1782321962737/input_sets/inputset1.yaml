@@ -1,0 +1,14 @@
+inputSet:
+  name: inputset1
+  identifier: inputset1
+  orgIdentifier: default
+  projectIdentifier: Harness_Learning
+  pipeline:
+    identifier: Build_mrrmore_harness_1782321962737
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
