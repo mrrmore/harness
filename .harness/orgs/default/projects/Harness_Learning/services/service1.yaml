@@ -3,3 +3,6 @@ service:
   identifier: service1
   orgIdentifier: default
   projectIdentifier: Harness_Learning
+  serviceDefinition:
+    spec: {}
+    type: Kubernetes
